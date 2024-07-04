@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="favicon.svg" type="image/svg+xml">
+	<title>Server send event test</title>
+
+	<style>
+		body, html {
+			box-sizing: content-box;
+		}
+
+		.container {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			height: 100%;
+			width: 100%;
+			gap: 1rem;
+			box-sizing: border-box;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<h1>Messages:</h1>
+		<div id="messages">init</div>
+		<div id="messages-event">init</div>
+	</div>
+
+	<script type="module" src="main.js"></script>
+</body>
+</html>

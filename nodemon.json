@@ -1,0 +1,6 @@
+{
+  "watch": ["src", "./.env.override", "./nodemon.json"],
+  "ext": ".ts,.js,.html",
+  "ignore": ["**/tmp/**/*", "**/dist/**/*", "**/node_modules/**/*"],
+  "exec": "pnpm dev:start"
+}
