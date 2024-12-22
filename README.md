@@ -25,4 +25,4 @@ The stream will be printed in the console. And the data will be printed in the b
 
 The stream is available at `http://localhost:3010/my-stream`
 
-<s>Also a named stream is available at `http://localhost:3010/my-stream-event`</s> The url address still works, but cruelty it is implemented in the above stream.
+Also a named stream is available at <s>`http://localhost:3010/my-stream-event`</s>. The url address still works, but cruently it is implemented in the above stream.
